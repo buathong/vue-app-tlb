@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-navigation-drawer v-model="drawer" app right/>
-    <v-toolbar app class = "light-blue accent-2">
+    <v-toolbar app class = "lime lighten-1">
       <v-toolbar-title>ยินดีต้อนรับ</v-toolbar-title>
       <v-spacer/>
       <v-toolbar-side-icon @click.stop="drawer = !drawer"/>
