@@ -1,5 +1,4 @@
 <template>
-<div class="lime lighten-1">
   <div><h1>Page Login</h1>
     <v-form v-model="valid">
       <v-text-field
