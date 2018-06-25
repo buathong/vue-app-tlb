@@ -37,7 +37,7 @@
         desserts: [
           {
             value: false,
-            name: 'Frozen Yogurt',
+            name: 'Buathong',
             calories: 159,
             fat: 6.0,
             carbs: 24,
@@ -46,7 +46,7 @@
           },
           {
             value: false,
-            name: 'Ice cream sandwich',
+            name: 'Jenjira',
             calories: 237,
             fat: 9.0,
             carbs: 37,
@@ -55,7 +55,7 @@
           },
           {
             value: false,
-            name: 'Eclair',
+            name: 'Nuttayakan',
             calories: 262,
             fat: 16.0,
             carbs: 23,
@@ -64,7 +64,7 @@
           },
           {
             value: false,
-            name: 'Cupcake',
+            name: 'Prakaimas',
             calories: 305,
             fat: 3.7,
             carbs: 67,
