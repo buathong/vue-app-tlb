@@ -15,7 +15,7 @@
         required
       />
     </v-form>
-    <v-btn color="success">Save</v-btn>
+    <v-btn color="teal lighten-3">Save</v-btn>
   </div>
 </template>
 <script>

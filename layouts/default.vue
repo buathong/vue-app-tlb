@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-navigation-drawer v-model="drawer" app right/>
-    <v-toolbar app class="lime accent-3">
+    <v-toolbar app class="teal lighten-3">
       <v-toolbar-title>ยินดีต้อนรับ</v-toolbar-title>
       <v-spacer/>
       <v-toolbar-side-icon @click.stop="drawer = !drawer"/>
@@ -14,6 +14,18 @@
 
 <script>
 export default {
+  data() {
+    return {
+      items: [
+         { title: 'Home', icon: 'home', url: '/' },
+         { title: 'Room', icon: 'update', url: '/table1' },
+         { title: 'Booking', icon: 'assignment_turned_in', url: '/booking' },
+         { title: 'Chat', icon: 'group', url: '/chat' },
+         { title: 'key', icon: 'security', url: '/keyroom' },
+         { title: 'Logout', icon: 'lock', url: '/Logout' },
+       ],
+     }
+  },
   computed: {
     online: {
       get() {
